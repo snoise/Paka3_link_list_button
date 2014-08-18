@@ -49,7 +49,8 @@ class Paka3_Link_List_Button
 			<style type="text/css">
 			div.resblock{
 				border:1px solid #eee;
-				height:100pt;
+				min-height:100pt;
+				max-height:200pt;
 				overflow:auto;
 			}
 			div#preview{
