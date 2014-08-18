@@ -30,10 +30,10 @@ jQuery(function($) {
 					
 						if($('[name="opt_li"]:checked').length){
 							str += "<li>"
-							str += "<a href ='" + obj_link + "' title=' + obj_title + '>" + obj_title + "</a>";
+							str += "<a href ='" + obj_link + "' title='" + obj_title + "'>" + obj_title + "</a>";
 							str += "</li>";
 						}else{
-							str += "<a href ='" + obj_link + "' title=' + obj_title + '>" + obj_title + "</a>";
+							str += "<a href ='" + obj_link + "' title='" + obj_title + "'>" + obj_title + "</a>";
 							str += "<br />";
 						}
 					});
